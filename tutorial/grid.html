@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid practice</title>
+  </head>
+
+  <style>
+    div {
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px;
+    ">
+      <div style="background-color: lightblue;" class="div1">div 1</div>
+      <div style="background-color: lightpink;" class="div2">div 2
+        <p>this is my paragraph</p>
+      </div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px 200px;
+      margin-top: 30px;
+    ">
+      <div style="background-color: lightblue;" class="div1">div 1</div>
+      <div style="background-color: lightpink;" class="div2">div 2
+        <p>this is my paragraph</p>
+      </div>
+      <div style="background-color: lightgreen;" class="div1">div 3</div>
+      <div style="background-color: lightpink;" class="div2">div 4</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 100px 3fr;">
+      <div style="background-color: antiquewhite;">aaa</div>
+      <div style="background-color: yellowgreen;">aaa</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 100px 3fr 1fr;">
+      <div style="background-color: antiquewhite;">aaa</div>
+      <div style="background-color: yellowgreen;">aaa</div>
+      <div style="background-color: lightseagreen;">aaa</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;">
+      <div style="background-color: antiquewhite;">aaa</div>
+      <div style="background-color: yellowgreen;">aaa</div>
+      <div style="background-color: lightseagreen;">aaa</div>
+      <div style="background-color: antiquewhite;">bbb</div>
+      <div style="background-color: yellowgreen;">bbb</div>
+      <div style="background-color: lightseagreen;">bbb</div>
+    </div>
+  </body>
+</html>
